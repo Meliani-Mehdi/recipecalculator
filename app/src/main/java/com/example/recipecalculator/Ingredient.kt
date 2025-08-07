@@ -9,7 +9,7 @@ import androidx.room.PrimaryKey
     tableName = "ingredients",
     indices = [Index(value = ["name"], unique = true)]
 )
-data class ingredient(
+data class Ingredient(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
 
